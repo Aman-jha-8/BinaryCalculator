@@ -41,9 +41,6 @@ const calculateButton = document.getElementById('calculate');
                 default:
                     result = 'Invalid operation';
             }
-
-
-
             document.getElementById('result').textContent = 'Result: ' + result;
         }
 
